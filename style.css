@@ -1,0 +1,49 @@
+div.container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+ul.people {
+	display: flex;
+	padding: 0px ;
+	align-items: center;
+	justify-content: center;
+}
+
+ul.people>li {
+	padding: 2px;
+	background-color: #adadad;
+	list-style: none;
+	box-shadow: 4px 4px;
+	margin-right: 10px;
+	transition: all 0.1s ease-in-out;
+}
+
+ul.people>li:nth-of-type(4n+1) {
+	background-color: #ea1a5b;
+}
+
+ul.people>li:nth-of-type(4n+2) {
+	background-color: #f48120;
+}
+
+ul.people>li:nth-of-type(4n+3) {
+	background-color: #73bd45;
+}
+
+ul.people>li:nth-of-type(4n) {
+	background-color: #0862ad;
+}
+
+ul.people>li:hover {
+	transform: translate(-2px, -2px);
+	box-shadow: 8px 8px;
+	/*z-index: -1;*/
+}
+ul.people>li>a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Comic Sans MS
+}
+
