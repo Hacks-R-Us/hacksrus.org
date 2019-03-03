@@ -1,6 +1,11 @@
+body {
+	font-family: Comic Sans MS;
+}
+
 div.container {
 	max-width: 700px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 ul.people {
@@ -44,6 +49,4 @@ ul.people>li>a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 20px;
-	font-family: Comic Sans MS
 }
-
