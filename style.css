@@ -51,6 +51,10 @@ ul.fisher-price-links>li>a {
 	font-size: 20px;
 }
 
+.left-aligned {
+	text-align: left;
+}
+
 .unicorns {
 	animation: unicornMode 2s linear 0s infinite;
 }
