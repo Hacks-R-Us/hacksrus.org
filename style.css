@@ -101,6 +101,10 @@ ul.fisher-price-links>li>a {
 	right: 10px;
 }
 
+div.code-of-conduct>p, div.code-of-conduct>ul {
+	text-align: left;
+}
+
 @keyframes unicornMode {
 	from {
 		color: #6666ff;
