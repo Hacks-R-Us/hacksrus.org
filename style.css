@@ -6,6 +6,7 @@ body {
 
 blink {
 	animation: blinker 0.6s linear infinite;
+	transform: translateZ(0);
 }
 
 @keyframes blinker {
@@ -72,6 +73,7 @@ ul.fisher-price-links>li>a {
 
 .unicorns {
 	animation: unicornMode 2s linear 0s infinite;
+	transform: translateZ(0);
 }
 
 .nested li {
