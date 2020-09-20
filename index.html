@@ -61,6 +61,11 @@
 				document.getElementById("policy").scrollIntoView();
 			}
 		}
+
+		const queryString = window.location.search;
+		if (queryString.match(/[rainbow|unicorn]mode=1/i)) {
+			document.body.classList.add("unicorns");
+		}
 	</script>
 </body>
 </html>
