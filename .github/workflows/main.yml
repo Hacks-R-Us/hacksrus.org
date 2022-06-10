@@ -7,14 +7,17 @@ on:
     branches: [ main ]
 
 jobs:
-  check:
+  link-check:
     runs-on: ubuntu-latest
-
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - name: Link Checker
-      uses: peter-evans/link-checker@v1.2.2
+      uses: lycheeverse/lychee-action@v1.5.0
+      with:
+        fail: true
+  html-validate:
+    runs-on: ubuntu-latest
+    steps:
     - name: HTML5 Validator
       uses: Cyb3r-Jak3/html5validator-action@v7.0.0
       with:
